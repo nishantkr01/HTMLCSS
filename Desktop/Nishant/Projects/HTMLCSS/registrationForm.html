@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="https://use.fontawesome.com/157b95e220.js">
+    </script>
+    <style>
+        .container{
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+        }
+        .name{
+            display: flex;
+            margin-top: 15px;
+        }
+        .ficon{
+            border: 1px solid rgb(178, 178, 187);
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            height: 25px;
+            margin-left: 50px;
+            width: 140%;
+        }
+        label{ 
+            
+        }
+        .iconicon{
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-right: 1px solid rgb(164, 164, 182);
+            width: 10px;
+            /* background-color: rgb(226, 226, 236); */
+            z-index: 3;
+            border-radius: 2px;
+        }
+        input{
+            border: none;
+            border-color: transparent;
+            background-color:rgb(255, 255, 255);
+            height: 23px;
+            width: 140%;
+        }
+        select{
+            border: none;
+            border-color: transparent;
+            background-color:rgb(255, 255, 255);
+            height: 23px;
+            width: 150%;
+        }
+        body{
+            background-color:rgb(226, 226, 236);
+        }
+        input:focus{
+            outline: none !important;
+        }
+        button{
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: rgb(245, 143, 10);
+        color: white;
+        border: 1px solid rgb(245, 143, 10);
+        border-radius: 4px;
+        margin-left: 130px;
+        cursor: pointer;
+        }
+        .custom-container{
+            background-color: rgb(239, 247, 231);
+            width: 60%;
+            margin-top: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container custom-container shadow-lg">
+        <h3 style="text-align: center; margin-left: 50px">Registration Form</h3>
+        <div style="max-width:400px;margin:auto; margin-top: 40px">
+            <div class="name">
+                <label style="padding-left: 50px">First Name</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-user icon iconicon"></i> <input type="text" placeholder="First Name"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label  style="padding-left: 51px">Last Name</label>
+                <div>
+                    <div class="ficon"> <i class="fa fa-user icon iconicon"></i> <input type="text" placeholder="Last Name"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label>Department/Office</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-bars icon iconicon"></i> <select><option>Select Your Department </option></select></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label  style="padding-left: 57px">Username</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-user icon iconicon"></i> <input type="text" placeholder="Username"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label  style="padding-left: 59px">Password</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-user icon iconicon"></i> <input type="text" placeholder="Password"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label>Confirm Password</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-user icon iconicon"></i> <input type="text" placeholder="Confirm Password"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label  style="padding-left: 74px">E-Mail</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-envelope icon iconicon"></i> <input type="text" placeholder="E-Mail Address"></div>
+                </div>
+            </div>
+
+            <div class="name">
+                <label  style="padding-left: 43px">Contact No.</label>
+                <div>
+                    <div class="ficon"><i class="fa fa-phone icon iconicon"></i> <input type="text" placeholder="(639)"></div>
+                </div>
+            </div>
+
+            <center>
+                <button>Submit <i class="fa fa-paper-plane"></i></button>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
